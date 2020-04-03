@@ -5,7 +5,9 @@
 * staging -- creating a snapshot
 * commiting -- record the snapshot in the repository
 
-###### 4/3
+###### 4/3s
 * `git tag -a v1.0 -m"description"` `git show v1.0`可看到 description
 * reset only operate on working directory, while revert undos in commited sanpshots
 * `git clean -f` -- remove untracked files
+---
+* `git rm crazy.html` 直接 add the crazy.html deleted，再 `git add rainbow.html` 會自動變成 rename 狀態！
