@@ -11,3 +11,15 @@
 * `git clean -f` -- remove untracked files
 ---
 * `git rm crazy.html` 直接 add the crazy.html deleted，再 `git add rainbow.html` 會自動變成 rename 狀態！
+
+###### 4/4
+* Branch
+    1. Create a new branch for each major addition to your project.
+    2. Don't create a branch if you can't give it a specific name.
+* branch type
+    1. topic(long-running) -- feature
+    2. hotfix
+    3. record the evolution of a project -- master
+* Merge
+    1. Fast-forwarding
+    2. 3-way merge
