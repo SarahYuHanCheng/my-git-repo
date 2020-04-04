@@ -5,7 +5,7 @@
 * staging -- creating a snapshot
 * commiting -- record the snapshot in the repository
 
-###### 4/3s
+###### 4/3
 * `git tag -a v1.0 -m"description"` `git show v1.0`可看到 description
 * reset only operate on working directory, while revert undos in commited sanpshots
 * `git clean -f` -- remove untracked files
